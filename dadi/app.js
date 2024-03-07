@@ -6,6 +6,7 @@
 
 // Stabilire il vincitore, in base a chi fa il punteggio più alto.
   // Se numero giocatore > di quello del computer allora il giocatore ha vinto
-  // Altrimenti vince il computer
+  // INVECE SE numero giocatore < di quello del computer allora quest'ultimo vince
+  // ALTRIMENTI pareggio
     
  
