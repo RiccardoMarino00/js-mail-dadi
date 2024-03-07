@@ -6,6 +6,8 @@ const emailRegistrateArray = ["riccardo@gmail.com", "luigi@outlook.it", "gabriel
 const inputEmailUser = document.getElementById("email")
 // Assegno una costante al button
 const inputButton = document.getElementById("send-button")
+// Assegno una costante al html
+const outPut = document.getElementById("output")
 
 // Aggiungo un event listener al click sul button
 inputButton.addEventListener("click", function () {
@@ -32,12 +34,15 @@ inputButton.addEventListener("click", function () {
 
         // Compare messaggio "può accedere"
         console.log("Puoi accedere")
+        outPut.innerHTML = "Puoi accedere"
 
 
     } else {
 
         // Altrimenti Compare messaggio "non può accedere"
         console.log("Non puoi accedere")
+        outPut.innerHTML = "Non puoi accedere"
+
 
     }
 
