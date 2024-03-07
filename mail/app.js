@@ -2,7 +2,6 @@ console.log("Js")
 
 // Creo una lista 
 const emailRegistrateArray = ["riccardo@gmail.com", "luigi@outlook.it", "gabriel@hotmail.com"]
-// Chiedi all’utente la sua email
   // Assegno una costante all'input
      const inputEmailUser = document.getElementById("email")
   // Assegno una costante al button
@@ -20,16 +19,15 @@ const emailRegistrateArray = ["riccardo@gmail.com", "luigi@outlook.it", "gabriel
 
                    // Prendo la value di inputEmailUser
                      const inputEmailUser = parseInt(email.value)
-            //    console.log(inputEmailUser)
+           
 
-            // Se email utente (inputEmailUser) è uguale a una delle email registrate (emailRegistrateArray)
-               if (inputEmailUser === emailRegistrataArray){
-                  areSameEmailInArray = true                
-               } 
-               
-            
-              } 
+                   // Se email utente (inputEmailUser) è uguale a una delle email registrate (emailRegistrateArray)
+                   if (inputEmailUser === emailRegistrataArray){
+                       areSameEmailInArray = true                
+                    }              
+                } 
 
+              // Se email utente coincide
               if (areSameEmailInArray === true){
 
                 // Compare messaggio "può accedere"
@@ -49,7 +47,6 @@ const emailRegistrateArray = ["riccardo@gmail.com", "luigi@outlook.it", "gabriel
 
      })
 
-// controlla che email insrita da utente sia nella lista di chi può accedere
   
   
 // stampa un messaggio appropriato sull’esito del controllo
